@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>HashCollisions</display-name>
+    <description>
+        A simple servlet that accepts an array of string and returns the sets of strings which collide in the hash table
+        in the order they appeared in the input list.
+    </description>
+
+    <servlet>
+        <servlet-name>HashCollisions</servlet-name>
+        <servlet-class>csi403.JsonService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HashCollisions</servlet-name>
+        <url-pattern>/HashCollisions</url-pattern>
+    </servlet-mapping>
+
+</web-app>     
