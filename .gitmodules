@@ -1,0 +1,6 @@
+[submodule "NASDAQ_Crawler"]
+	path = NASDAQ_Crawler
+	url = https://github.com/matthewzimmer/icsi-418y.git
+[submodule "AI-Attendance-Tracker"]
+	path = AI-Attendance-Tracker
+	url = https://github.com/BranGuzmen/ICSI435-SemesterProject.git
